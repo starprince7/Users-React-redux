@@ -1,0 +1,118 @@
+body{
+  background: #808080
+}
+
+.App{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.form{
+  padding: 15px;
+  height: auto;
+  width: 400px;
+  margin: auto;
+  background: rgb(15, 220, 220);
+  color: black;
+  box-shadow: 2px 5px 5px grey;
+}
+
+.label input{
+  text-transform: uppercase;
+  outline: none;
+  padding: 5px;
+  color: black;
+  height: 30px;
+  width: 95%;
+  border: none;
+  border-radius: 2px;
+}
+
+.label {
+  margin: 0 0 10px 0
+}
+
+label h3 {
+  color: grey;
+}
+
+div button {
+  color: white;
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+.header{
+  height: 100px;
+  background-color: dimgray;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+ol .newuser{
+  width: 400px;
+  height: auto;
+  background-color: black;
+  
+}
+
+li .user {
+  color: black;
+  display: block;
+  background-color: orangered;
+}
+
+.header{
+  height: 60px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-bar{
+  float: left;
+  height: 100vh;
+  overflow-y: auto;
+  width: 300px;
+  background: #323133;
+  color: white;
+  padding: 25px 0px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.side-bar-heading{
+  border-bottom: solid crimson;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center
+}
+
+table {
+  width: 90%;
+  margin: auto
+}
+thead{
+  color: silver;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+tr{
+  height: 50px
+}
+tr button{
+  height: 40px;
+  margin: 3px 0
+}
+tr button:active{
+  background-color: white;
+  color: crimson
+}
