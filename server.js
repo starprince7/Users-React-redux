@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(cors())
 
-const dbURI = 'mongodb+srv://starprince:starprince7@starprince.m9v4i.mongodb.net/Projects?retryWrites=true&w=majority'
+const dbURI = 'mongodb+srv://starprince:<DB_PASSWORD>@starprince.m9v4i.mongodb.net/Projects?retryWrites=true&w=majority'
 
 mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true})
     .then(result => {
